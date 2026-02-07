@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Weather App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="title">Weather App</h1>
+  <div class="search-box">
+    <input type="text" id="textBox" placeholder="Enter city name (e.g. Hyderabad)" />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div id="weatherWrapper">
+    <div id="currentDetailsRef" class="row"></div>
+    <div id="hourlyContainer"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

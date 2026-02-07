@@ -16,7 +16,7 @@ async function getData(e) {
   btn.innerText = "Loading...";
   btn.disabled = true;
 
-  const API = `http://api.weatherapi.com/v1/forecast.json?key=4857f013486a4a04aef45829263101&q=${city}&days=7`;
+  const API = `https://api.weatherapi.com/v1/forecast.json?key=4857f013486a4a04aef45829263101&q=${city}&days=7`;
 
   try {
     const res = await fetch(API);
